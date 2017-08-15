@@ -285,7 +285,7 @@ label{
 ul.f-icons{
  float:right;
 }
-.header-right ul li a.facebook,.header-right ul li a.p,.header-right ul li a.twitter{
+.header-right ul li a.facebook,.header-right ul li a.p,.header-right ul li a.twitter, .header-right ul li a.goog{
 	background: url(../images/icons.png) no-repeat -5px -8px;
 	display:inline-block;
 	height: 34px;
@@ -300,7 +300,7 @@ ul.f-icons{
 .header-right ul li a.goog{
 	background: url(../images/icons.png) no-repeat -127px -8px;
 }
-.header-right ul li a.facebook:hover, .header-right ul li a:hover.p, .header-right ul li a.twitter:hover {
+.header-right ul li a.facebook:hover, .header-right ul li a:hover.p, .header-right ul li a.twitter:hover, .header-right ul li a.goog:hover{
   transform: rotateY(360deg);
   -webkit-transform: rotateY(360deg);
   -moz-transform: rotateY(360deg);
