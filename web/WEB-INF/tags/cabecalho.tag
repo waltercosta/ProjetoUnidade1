@@ -1,9 +1,3 @@
-<%-- 
-    Document   : cabecalho
-    Created on : 14/08/2017, 18:59:43
-    Author     : Walter
---%>
-
 <%@tag description="cabeçalho head completo" pageEncoding="UTF-8"%>
 
 <%-- The list of normal or fragment attributes can be specified here: --%>

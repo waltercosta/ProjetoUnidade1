@@ -1,70 +1,12 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
     <head>
         <%@taglib tagdir="/WEB-INF/tags/" prefix="Wally" %>
-        <Wally:cabecalho titulo="Wally's about" />
+        <Wally:cabecalho titulo="Wally's About" />
     </head>
     <body>
         <!--banner-->
-        <div class="banner-1">
-            <div class="header-top">
-                <div class="header-bottom">
-                    <div class="fixed-header">
-                        <div class="logo">
-                            <h1><a href="index.html">Wally's<span>About</span></a></h1>
-                        </div>
-                        <div class="hd-lt">	
-                            <span class="menu"> </span>
-                            <div class="top-menu">
-                                <Wally:navebar />	
-                            </div>
-
-                            <!-- script for menu -->
-                            <script>
-                                $("span.menu").click(function () {
-                                    $(".top-menu").slideToggle("slow", function () {
-                                        // Animation complete.
-                                    });
-                                });
-                            </script>
-                            <!-- script for menu -->
-                            <script>
-                                $(document).ready(function () {
-                                    var navoffeset = $(".header-bottom").offset().top;
-                                    $(window).scroll(function () {
-                                        var scrollpos = $(window).scrollTop();
-                                        if (scrollpos >= navoffeset) {
-                                            $(".header-bottom").addClass("fixed");
-                                        } else {
-                                            $(".header-bottom").removeClass("fixed");
-                                        }
-                                    });
-
-                                });
-                            </script>
-                            <div class="header-right">
-                                <h6>Follows Us :</h6>
-                                <ul class="f-icons">
-                                    <li><a href="#" class="facebook"> </a></li>
-                                    <li><a href="#" class="p"> </a></li>
-                                    <li><a href="#" class="twitter"> </a></li>
-                                </ul>
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
+        <Wally:topo extencao="About" />
         <!--banner-->
         <div class="about">
             <div class="container">
@@ -74,113 +16,69 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <img src="images/1.jpg" alt=" " class="img-responsive">
                     </div>
                     <div class="col-md-6 ab-rgt">
-                        <h4>Slightly believable</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and words which don't look even slightly dummy text of the printing and words which don't look even slightly believable.</p>
-                        <p> If words which don't look even slightly believable. If  believable. If words which don't look even slightly believable. If you are  are going to use a passage of Lorem Ipsum typesetting industry. Lorem Ipsum has beenLorem Ipsum is simply dummy text of the printing and words which don't look even slightly believable. If words which don't look even slightly believable. If you are  are going to use a passage of Lorem Ipsum typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  the industry's standard dummy text ever since the 1500s, </p>
+                        <h4>Walter Costa</h4>
+                        <p>Brasileiro, nasceu dia 14/01/1990 em Aracaju, capital de Sergipe. Filho de José Valter Corrêa da Costa e Resailma Correia da Costa.</p>
+                        <p>Um amante da música. Aos sete anos iniciou os estudos na música, no Conservatório de Música de Sergipe, teve como primeiro instrumento, a flauta doce soprano. Durante os três anos seguintes conheceu vários instrumentos, mas apenas um chamou sua atenção, o Violino. Aos 10 anos, começa a aprender a tocar violino, onde ainda nos dias de hoje a paixão permanece.</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
                 <h3>Biography</h3>
                 <div class="ab-btm">
                     <div class="ab-l">
+                        <h6>1997 -</h6>
+                    </div>
+                    <div class="ab-r">
+                        <p>Inicia os estudos no Conservatório de Música de Sergipe</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="ab-btm">
+                    <div class="ab-l">
+                        <h6>2000 -</h6>
+                    </div>
+                    <div class="ab-r">
+                        <p>Inicia os estudo de violino</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="ab-btm">
+                    <div class="ab-l">
+                        <h6>2002 -</h6>
+                    </div>
+                    <div class="ab-r">
+                        <p>Vai ao primeiro festival de música, este, em Londrina-PR denominado Festival de música de Londrina. </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="ab-btm">
+                    <div class="ab-l">
+                        <h6>2003 -</h6>
+                    </div>
+                    <div class="ab-r">
+                        <p>Entra na Orquestra do Conservatório de Música, sob regência do prof. Wolney</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="ab-btm">
+                    <div class="ab-l">
+                        <h6>2008 -</h6>
+                    </div>
+                    <div class="ab-r">
+                        <p>Entra na Orquestra Sinfônica de Itabaiana (OSI), sob regência do Maestro Ângelo Rafael.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="ab-btm">
+                    <div class="ab-l">
                         <h6>2010 -</h6>
                     </div>
                     <div class="ab-r">
-                        <p>Lorem Ipsum is simply dummy text of the printing and words which don't look even slightly dummy text of the printing and  Lorem Ipsum typesetting industry. Lorem Ipsum has been the  words which don't look even slightly believable.</p>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="ab-btm">
-                    <div class="ab-l">
-                        <h6>2011 -</h6>
-                    </div>
-                    <div class="ab-r">
-                        <p>Lorem Ipsum is simply dummy text of the printing and words which don't look even slightly dummy text of the printing and words which  Lorem Ipsum typesetting industry. Lorem Ipsum has been the  don't look even slightly believable.</p>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="ab-btm">
-                    <div class="ab-l">
-                        <h6>2012 -</h6>
-                    </div>
-                    <div class="ab-r">
-                        <p>Lorem Ipsum is simply dummy text of the printing and words which don't look even slightly dummy text of the  Lorem Ipsum typesetting industry. Lorem Ipsum has been the  printing and words which don't look even slightly believable.</p>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="ab-btm">
-                    <div class="ab-l">
-                        <h6>2013 -</h6>
-                    </div>
-                    <div class="ab-r">
-                        <p>Lorem Ipsum is simply dummy text  Lorem Ipsum typesetting industry. Lorem Ipsum has been the  of the printing and words which don't look even slightly dummy text of the printing and words which don't look even slightly believable.</p>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="ab-btm">
-                    <div class="ab-l">
-                        <h6>2014 -</h6>
-                    </div>
-                    <div class="ab-r">
-                        <p>Lorem Ipsum is simply dummy text of the printing  Lorem Ipsum typesetting industry. Lorem Ipsum has been the  and words which don't look even slightly dummy text of the printing and words which don't look even slightly believable.</p>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="ab-btm">
-                    <div class="ab-l">
-                        <h6>2015 -</h6>
-                    </div>
-                    <div class="ab-r">
-                        <p>Lorem Ipsum is simply dummy text of the printing and words  Lorem Ipsum typesetting industry. Lorem Ipsum has been the  which don't look even slightly dummy text of the printing and words which don't look even slightly believable.</p>
+                        <p>Entra no corpo orquestral da Orquestra Sinfônica de Sergipe, sob regência do Maestro Guilherme Mannis. Essa, permanecendo até os dias atuais</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
             </div>
         </div>
-        <!-- footer -->
-        <div class="footer">
-            <div class="container">
-                <div class="col-md-3 footer-left">
-                    <h3>More Info</h3>
-                    <li><a href="#">How to order</a></li>
-                    <li><a href="#">Faq</a></li>
-                    <li><a href="#">Locatio</a></li>
-                    <li><a href="#">Shipping</a></li>
-                    <li><a href="#">Membership</a></li>
-                </div>
-                <div class="col-md-3 footer-left">
-                    <h3>Contact Us</h3>
-                    <p>Contrary to popular belief</p>
-                    <p>The standard chunk</p>
-                    <p>office : +12 34 995 0792</p>
-                </div>
-                <div class="col-md-3 social">
-                    <h3>Follow Us</h3>
-                    <ul>
-                        <li><a href="#" class="facebook"> </a></li>
-                        <li><a href="#" class="p"> </a></li>
-                        <li><a href="#" class="twitter"> </a></li>
-                        <li><a href="#" class="goog"> </a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 footer-left">
-                    <h3>Newsletter</h3>
-                    <form>
-                        <input type="text" placeholder="Enter email id" required="">
-                    </form>
-                    <div class="button">
-                        <form>
-                            <input type="submit" value="Subscribe">
-                        </form>
-                    </div>
-                    <div class="clearfix"> </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="footer-bottom">
-                    <p>Copyrights Â© 2015 Music8. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
-                </div>
-            </div>
-        </div>
-        <!-- footer -->
+        <Wally:rodape />
     </body>
 </html>
