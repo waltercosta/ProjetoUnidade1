@@ -2,7 +2,7 @@
 <html>
     <head>
         <%@taglib tagdir="/WEB-INF/tags/" prefix="Wally" %>
-        <Wally:cabecalho titulo="Wally's Contact" />
+        <Wally:cabecalho titulo="Contact" />
     </head>
     <!--banner-->
     <Wally:topo extencao="Contact" />
@@ -36,6 +36,19 @@
             </div>
         </div>
     </div>
+    <!--js google maps-->
+<!--    <div id="map"></div>
+    <script>
+      function initMap() {
+        // Create a map object and specify the DOM element for display.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+
+    </script>-->
+    <!--js google maps-->
     <div class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.310671366718!2d7.283884900000001!3d43.70409239999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cddab7066db4e1%3A0x7e52715fee03b279!2sNICE+FRANCE!5e0!3m2!1sen!2sin!4v1435662218413" frameborder="0" style="border:0" allowfullscreen=""></iframe>	
     </div>
