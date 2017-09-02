@@ -2,7 +2,7 @@
 <html>
     <head>
         <%@taglib tagdir="/WEB-INF/tags/" prefix="Wally" %>
-        <Wally:cabecalho titulo="Wally's Gallery" />
+        <Wally:cabecalho titulo="Gallery" />
     </head>
     <body>
         <!--banner-->

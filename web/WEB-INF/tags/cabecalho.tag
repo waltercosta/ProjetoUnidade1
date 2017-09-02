@@ -4,7 +4,7 @@
 <%@attribute name="titulo"%>
 
 <%-- any content can be specified here e.g.: --%>
-<title>${titulo}</title>
+<title>Wally's ${titulo}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Music8 Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
@@ -17,3 +17,6 @@
 <!--webfonts-->
 <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700|Six+Caps' rel='stylesheet' type='text/css'>
 <!--//webfonts-->
+<!--js google maps-->
+<!--<link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css">-->
+<!--js google maps-->
