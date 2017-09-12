@@ -6,7 +6,8 @@
         <div class="col-md-3 footer-left">
             <h3>Contact Me</h3>
             <p>Música é vida</p>
-            <p>The standard chunk</p>
+            <p>Music is a higher revelation than all wisdom and philosophy</p>
+            <p align="right">L. van Beethoven</p>
             <p>CellPhone : +55 9 9997 9972</p>
         </div>
         <div class="col-md-3 social">

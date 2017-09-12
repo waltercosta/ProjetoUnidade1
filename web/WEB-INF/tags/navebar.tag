@@ -7,6 +7,7 @@
         <li><a href="events.jsp">Events</a></li>
         <li><a href="gallery.jsp">Gallery</a></li>
         <li><a href="contact.jsp">Contact Me</a></li>
+        <li><a href="admin.jsp">Admin</a></li>
         <div class="clearfix"></div>
     </ul>
 </nav>	
