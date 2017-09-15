@@ -26,25 +26,18 @@ public class UserDao {
         String username = bean.getUsername();
         String password = bean.getPassword();
 
-        String searchQuery
-                = "select * from users where username='"
-                + username
-                + "' AND password='"
-                + password
-                + "'";
+        String searchQuery = "select * from tb_user where UserName='" + username + "' AND password='" + password + "'";
 
         // "System.out.println" prints in the console; Normally used to trace the process
-        System.out.println("Your user name is " + username);
-        System.out.println("Your password is " + password);
-        System.out.println("Query: " + searchQuery);
-
+//        System.out.println("Your user name is " + username);
+//        System.out.println("Your password is " + password);
+//        System.out.println("Query: " + searchQuery);
         try {
             //connect to DB 
             currentCon = ConnectionManager.getConnection();
             stmt = currentCon.createStatement();
             rs = stmt.executeQuery(searchQuery);
             boolean more = rs.next();
-
             // if user does not exist set the isValid variable to false
             if (!more) {
                 System.out.println("Sorry, you are not an admin! Please contact the Admin");
@@ -70,7 +63,6 @@ public class UserDao {
                 }
                 rs = null;
             }
-
             if (stmt != null) {
                 try {
                     stmt.close();
@@ -78,7 +70,6 @@ public class UserDao {
                 }
                 stmt = null;
             }
-
             if (currentCon != null) {
                 try {
                     currentCon.close();
@@ -88,8 +79,6 @@ public class UserDao {
                 currentCon = null;
             }
         }
-
         return bean;
-
     }
 }

@@ -25,7 +25,7 @@
                     <div class="form-group">
                         <label class="control-label col-sm-2" for="email">Username:</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control" id="username" placeholder="Enter username" name="usename">
+                            <input type="text" class="form-control" id="UserName" placeholder="Enter username" name="UseName">
                         </div>
                     </div>
                     <div class="form-group">

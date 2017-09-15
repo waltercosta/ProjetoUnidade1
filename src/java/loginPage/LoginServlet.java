@@ -18,19 +18,24 @@ import javax.servlet.http.HttpSession;
  */
 public class LoginServlet extends HttpServlet {
 
+    /**
+     *
+     * @param request
+     * @param response
+     * @throws ServletException
+     * @throws IOException
+     */
+    @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, java.io.IOException {
 
         try {
-
             UserBean user = new UserBean();
-            user.setUserName(request.getParameter("un"));
-            user.setPassword(request.getParameter("pw"));
+            user.setUserName(request.getParameter("Username"));
+            user.setPassword(request.getParameter("password"));
 
             user = UserDao.login(user);
-
             if (user.isValid()) {
-
                 HttpSession session = request.getSession(true);
                 session.setAttribute("currentSessionUser", user);
                 response.sendRedirect("userLogged.jsp"); //logged-in page      		

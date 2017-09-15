@@ -25,7 +25,7 @@ public class ConnectionManager {
             Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
 
             try {
-                con = DriverManager.getConnection(url, "username", "password");
+                con = DriverManager.getConnection(url, "UserName", "password");
 
             } catch (SQLException ex) {
                 ex.printStackTrace();
